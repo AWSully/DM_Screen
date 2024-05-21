@@ -1,15 +1,12 @@
 .collection {
   background-image: url(https://picsum.photos/500/500);
-  /* image from https://picsum.photos/, random photos are genereted each time */
   padding-top: calc(4.5 / 4 * 100%);
-  /* portrait aspect ratio */
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 768px) {
   .collection {
     padding-top: calc(2 / 3.5 * 100%);
-    /* change to landscape aspect ratio on md breakpoint and up */
   }
 }
 .inner {
@@ -20,7 +17,6 @@
   bottom: 0;
 }
 .inner h4 {
-  /* copying behavior of official site */
   max-width: 200px;
 }
 .experience-filter .nav-item {
@@ -31,9 +27,7 @@
 }
 .experience .img-card {
   background-image: url(https://picsum.photos/400/400);
-  /* image from https://picsum.photos/, random photos are genereted each time */
   padding-top: calc(4.5 / 4 * 100%);
-  /* portrait aspect ratio */
   background-size: cover;
   background-position: center;
 }
@@ -59,9 +53,7 @@
 }
 .starting .img-card {
   background-image: url(https://picsum.photos/398/398);
-  /* image from https://picsum.photos/, random photos are genereted each time */
   padding-top: calc(5 / 4 * 100%);
-  /* a slightly longer portrait aspect ratio */
   background-size: cover;
   background-position: center;
 }

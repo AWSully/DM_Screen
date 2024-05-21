@@ -60,3 +60,22 @@
 .starting .text-box {
   font-size: 0.9rem;
 }
+.books {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.books-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.5;
+}
+.books-text {
+  text-decoration: none;
+  color:black;
+  font-size: 1.25em;
+  font-weight: 450;
+}
+.books:hover .books-text,
+.books:hover .books-aspectratio {
+  text-decoration: underline;
+}

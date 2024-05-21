@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d179c27037.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>DM Screen</title>
+  </head>
+  <body id="body">
+    <nav class="navbar navbar-expand-lg navbar-light ps-3" style="background-color: rgba(116, 5, 5, 0.679);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DM Info</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Campaign Notes<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Media assets</a>  
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Statblocks</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Character Sheets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row" id="headline">
+        <div class="col-12 col-md-7 order-md-2">
+          <div class="img-fluid landscape-aspectratio rounded" id="headline-image" style="background-image: url(./images/dungeoncats.jpg)"></div>
+        </div>
+        <div class="col-12 col-md-5 order-md-1 pt-5">
+          <p><small>May 11th, 2024</small></p>
+          <a href="#" id="headline-text">Kitty Cat adventures in the Feywild</a>
+        </div>
+      </div>
+
+      <hr class="mt-5 mb-4">
+
+      <div class="news-title">
+        <p><large>Prep Time!</large></p>
+      </div>
+      <div class="row pb-5 news">
+        <div class="col-12 col-md-3">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <div class="img-fluid article-aspectratio rounded" style="background-image: url(./images/Forgotten-wiki.webp)"></div>
+            </div>
+            <div class="col-6 col-md-12">
+              <a href="https://forgottenrealms.fandom.com/wiki/Main_Page" target="_blank" class="news-text">Forgotten Realms Wiki</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <div class="img-fluid article-aspectratio rounded" style="background-image: url(./images/5thsrd.png)"></div>
+            </div>
+            <div class="col-6 col-md-12">
+              <a href="http://www.5thsrd.org" target="_blank" class="news-text">5thSRD.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <div class="img-fluid article-aspectratio rounded" style="background-image: url(./images/MonsterStatblock_Template.jpg)"></div>
+            </div>
+            <div class="col-6 col-md-12">
+              <a href="https://tetra-cube.com/dnd/dnd-statblock.html" target="_blank" class="news-text">Custom Statblock Generator</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <div class="img-fluid article-aspectratio rounded" style="background-image: url(./images/aideddlogo.png)"></div>
+            </div>
+            <div class="col-6 col-md-12">
+              <a href="https://www.aidedd.org/dnd-filters/monsters.php" target="_blank" class="news-text">Monster Search</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="stays">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-9 col-md-6">
+            <h3>Previous Sessions</h3>
+            <p class="stays-header">Always double check past notes to avoid plotholes, loopholes, or portable holes the party can use to circumvent encounters in the upcoming session</p>
+          </div>
+        </div>
+        <div class="row overflow-auto flex-nowrap">
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/SCAG\ Map.jpeg)"></div>
+                <a href="#" class="stays-text">The party begins their trek from Loudwater to Llorkh</a>
+                <p class="pl-2"><small>April 13th, 2024</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/Printable\ Loudwater\ Map.jpg)"></div>
+                <a href="#" class="stays-text">Violent beginnings: the start of a new adventure</a>
+                <p class="pl-2"><small>March 16th, 2024</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/Durzh_pt_two.jpeg)"></div>
+              <a href="#" class="stays-text">Complications at Durzh's Pt 2 (Campaign 1)</a>
+              <p class="pl-2"><small>January 3rd, 2024</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/Durzh_pt_one.webp)"></div>
+              <a href="#" class="stays-text">Complications at Durzh's Pt 1 (Campaign 1)</a>
+              <p class="pl-2"><small>December 16th, 2023</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/towerclearing.jpeg)"></div>
+              <a href="#" class="stays-text">Tower Clearing: When choosing between Orcs and Mercenaries, the Party chose whomever survived them</a>
+              <p class="pl-2"><small>April 22nd, 2023</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/portals.png)"></div>
+              <a href="#" class="stays-text">Rescue Mission Complete! Returning to Durzh's towers (Campaign 1)</a>
+              <p class="pl-2"><small>February 4th, 2023</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/Durzhstower.webp)"></div>
+              <a href="#" class="stays-text">(Virtual)Operation Thundering Tower (Campaign 1)</a>
+              <p class="pl-2"><small>September 10th, 2022</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="stays-article">
+              <div class="unique-aspectratio rounded" style="background-image: url(./images/old_wizard.jpeg)"></div>
+              <a href="#" class="stays-text">Older Sessions</a>
+              <p class="pl-2"><small>2019-2022</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container center-break">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 center-image">
+          <a href="https://drive.google.com/drive/u/2/my-drive" target="_blank">
+            <div class="img-fluid center-aspectratio rounded" style="background-image: url(./images/drivelogo.png)"></div>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 center-image">
+          <a href="#">
+            <div class="img-fluid center-aspectratio rounded" style="background-image: url(./images/dropboxlogo.png)"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="economic-opp">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-9 col-md-6">
+            <h3>One Shots</h3>
+            <p class="Econ-header">Keep track of ideas, and keep record of past events to help plan bigger, better ones in the future </p>
+          </div>
+        </div>
+        <div class="row overflow-auto flex-nowrap">
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/feywild.webp)"></div>
+              <a href="#" class="econ-text">Feywild Adventure (Title TBD)</a>
+              <p class="pl-2"><small>TBD</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/Tremors.jpeg)"></div>
+              <a href="#" class="econ-text">Tremors: Canyon Run</a>
+              <p class="pl-2"><small>January 20th, 2024</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/house\ picture.jpg)"></div>
+              <a href="#" class="econ-text">The Ivanovich Estate: Rooted in Terror</a>
+              <p class="pl-2"><small>December 15th, 2023</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/Krampus2.webp)"></div>
+              <a href="#" class="econ-text">KrampusNacht Redux</a>
+              <p class="pl-2"><small>January 21st, 2023</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/Krampus1.jpeg)"></div>
+              <a href="#" class="econ-text">KrampusNacht</a>
+              <p class="pl-2"><small>December 28th, 2022</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/Ankheg.png)"></div>
+              <a href="#" class="econ-text">(Virtual) Pit Fight gone right: Bitsy and Abaddon bridle and ride Ankhegs through the city</a>
+              <p class="pl-2"><small>November 27th, 2021</small></p>
+            </div>
+          </div>
+          <div class="col-10 col-lg-4">
+            <div class="econ-article">
+              <div class="econ-aspectratio rounded" style="background-image: url(./images/Heist1.jpeg)"></div>
+              <a href="#" class="econ-text">(Virtual) Home Invasion: High Stakes Burglary at a Magical Estate</a>
+              <p class="pl-2"><small>June 19th, 2021</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container news-topic pt-5">
+      <h3 class="pb-4">Rulebooks and Campaign Guides</h3>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">All</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">5e Core Rules</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">Campaign Guides</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">Campaign Settings</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">UA/Unofficial</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">Middle Earth</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">Non-5e</button>
+      <div class="row">
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5ePHB.webp)"></div>
+            <a href="#" class="topic-text">5e Player's Handbook</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5eDMG.jpeg)"></div>
+            <a href="#" class="topic-text">5e Dungeon Master's Guide</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5eTashas.jpeg)"></div>
+            <a href="#" class="topic-text">Tasha's Cauldron of Everything</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5eVolos.jpeg)"></div>
+            <a href="#" class="topic-text">Volo's Guide to Monsters</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5eXanathars.jpeg)"></div>
+            <a href="#" class="topic-text">Xanathar's Guide to Everything</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/AcqInc1.jpeg)"></div>
+            <a href="#" class="topic-text">Acquisition's Incorporated</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div href class="topic-aspectratio rounded" style="background-image: url(./images/5eMM.webp)"></div>
+            <a href="#" class="topic-text">5e Monster Manual</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3">
+          <div class="topic">
+            <div class="topic-aspectratio rounded" style="background-image: url(./images/5eFizbans.jpeg)"></div>
+            <a href="#" class="topic-text">Fizban's Treasury of Dragons</a>
+          </div>
+        </div>
+        <div class="col-12 pt-3 pb-4">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">View More</button>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <footer class="container-fluid footer-background pt-2 pb-2">
+      <div class="container footer">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto">
+            <small>© 2024 DMAwS All rights reserved</small>
+            <small>Privacy</small>
+            <small>Terms</small>
+            <small>Sitemap</small>
+          </div>
+          <div class="col-auto">
+            <i class="text-secondary fab fa-instagram"></i>
+            <i class="text-secondary mr-3 fab fa-linkedin"></i>
+            <i class="text-secondary mr-3 fab fa-facebook-f"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

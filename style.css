@@ -1,0 +1,141 @@
+@media (max-width: 768px){
+  .center-image{
+    padding-top: 3em;
+  }
+  .center-text{
+    padding-top: 2em;
+  }
+}
+#body{
+  background-color:rgba(108, 6, 6, 0.69);
+}
+
+#navbarsupportedcontent{
+  align-content: right;
+}
+#headline {
+  padding-top:75px;
+}
+#headline-text {
+  text-decoration: none;
+  color:black;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.read-more {
+  padding-top: 25px;
+}
+.news-title {
+  font-weight: 550;
+  font-size: 24px;
+}
+.news-text {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+.news:hover .news-text,
+.news:hover .news-title {
+  text-decoration: underline;
+}
+.article-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.5;
+}
+.landscape-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.4;
+}
+#stays {
+  background-color: rgb(236, 236, 236, .3);
+}
+.stays-article {
+  height:95%;
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.unique-aspectratio {
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 56.25%;
+  aspect-ratio: 1;
+}
+.stays-text {
+  display: block;
+  padding: 10px;
+  color:black;
+  font-size: larger;
+  font-weight: 500;
+}
+.stays-article:hover .stays-text,
+.stays-article:hover .unique-aspectratio {
+  text-decoration: underline;
+}
+#economic-opp {
+  background-color: rgb(236, 236, 236, .3);
+}
+.econ-article {
+  height: 95%;
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.econ-aspectratio {
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 56.25%;
+  aspect-ratio: 1;
+}
+.econ-text {
+  display: block;
+  padding: 10px;
+  color:black;
+  font-size: larger;
+  font-weight: 500;
+}
+.econ-article:hover .econ-text,
+.econ-article:hover .econ-aspectratio {
+  text-decoration: underline;
+}
+
+
+.center-image {
+  align-content: center;
+}
+
+.logos {
+  display: block;
+  align-content: center;
+}
+.center-aspectratio {
+  background-position: center;
+  background-size: 15em;
+  background-repeat: no-repeat;
+  aspect-ratio: .85;
+}
+.topic {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topic-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.5;
+}
+.topic-text {
+  text-decoration: none;
+  color:black;
+  font-size: 1.25em;
+  font-weight: 450;
+}
+.topic:hover .topic-text,
+.topic:hover .topic-aspectratio {
+  text-decoration: underline;
+}
+.footer-background {
+  background-color: rgb(236, 236, 236, .3);
+  list-style-type: none;
+}

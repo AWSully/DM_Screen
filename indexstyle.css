@@ -25,17 +25,17 @@
 .read-more {
   padding-top: 25px;
 }
-.news-title {
+.prep-time {
   font-weight: 550;
   font-size: 24px;
 }
-.news-text {
+.prep-text {
   text-decoration: none;
   color: black;
   font-size: 23px;
 }
-.news:hover .news-text,
-.news:hover .news-title {
+.prep:hover .prep-text,
+.prep:hover .prep-time {
   text-decoration: underline;
 }
 .article-aspectratio {
@@ -48,10 +48,10 @@
   background-size: cover;
   aspect-ratio: 1.4;
 }
-#stays {
+#past-sessions {
   background-color: rgb(236, 236, 236, .3);
 }
-.stays-article {
+.past-article {
   height:95%;
   margin-bottom: 20px;
   border: 1px solid;
@@ -63,7 +63,7 @@
   padding-bottom: 56.25%;
   aspect-ratio: 1;
 }
-.stays-text {
+.past-text {
   display: block;
   padding: 10px;
   color:black;
@@ -74,22 +74,22 @@
 .stays-article:hover .unique-aspectratio {
   text-decoration: underline;
 }
-#economic-opp {
+#one-shots {
   background-color: rgb(236, 236, 236, .3);
 }
-.econ-article {
+.shots-article {
   height: 95%;
   margin: 20px;
   border: 1px solid;
   border-radius: 5px;
 }
-.econ-aspectratio {
+.shots-aspectratio {
   background-position: center;
   background-size:cover;
   padding-bottom: 56.25%;
   aspect-ratio: 1;
 }
-.econ-text {
+.shots-text {
   display: block;
   padding: 10px;
   color:black;
@@ -116,23 +116,23 @@
   background-repeat: no-repeat;
   aspect-ratio: .85;
 }
-.topic {
+.books {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.topic-aspectratio {
+.books-aspectratio {
   background-position: center;
   background-size: cover;
   aspect-ratio: 1.5;
 }
-.topic-text {
+.books-text {
   text-decoration: none;
   color:black;
   font-size: 1.25em;
   font-weight: 450;
 }
-.topic:hover .topic-text,
-.topic:hover .topic-aspectratio {
+.books:hover .books-text,
+.books:hover .books-aspectratio {
   text-decoration: underline;
 }
 .footer-background {

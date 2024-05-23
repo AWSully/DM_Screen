@@ -1,0 +1,147 @@
+@media (max-width: 768px){
+  .center-image{
+    padding-top: 3em;
+  }
+  .center-text{
+    padding-top: 2em;
+  }
+}
+
+#navbarsupportedcontent{
+  align-content: right;
+}
+#headline {
+  padding-top:75px;
+}
+#headline-text {
+  text-decoration: none;
+  color:black;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.read-more {
+  padding-top: 25px;
+}
+.links-title {
+  font-weight: 550;
+  font-size: 24px;
+}
+.links-text {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+.links{
+  text-align: center;
+}
+.links:hover .links-text,
+.links:hover .links-title {
+  text-decoration: underline;
+}
+.article-aspectratio {
+  background-position: center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  aspect-ratio: 1.5;
+}
+.landscape-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.4;
+}
+#characters {
+  background-color: rgb(236, 236, 236, .3);
+}
+.character-sheet {
+  height:40em;
+  margin-bottom: 20px;
+  padding-bottom: -10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.unique-aspectratio {
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 56.25%;
+  aspect-ratio: 1;
+}
+.character-text {
+  display: block;
+  padding: 10px;
+  color:black;
+  font-size: larger;
+  font-weight: 500;
+}
+.character-sheet:hover .character-text,
+.character-sheet:hover .unique-aspectratio {
+  text-decoration: underline;
+}
+#economic-opp {
+  background-color: rgb(236, 236, 236, .3);
+}
+.econ-article {
+  height: 95%;
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.econ-aspectratio {
+  background-position: center;
+  background-size:cover;
+  padding-bottom: 56.25%;
+  aspect-ratio: 1;
+}
+.econ-text {
+  display: block;
+  padding: 10px;
+  color:black;
+  font-size: larger;
+  font-weight: 500;
+}
+.econ-article:hover .econ-text,
+.econ-article:hover .econ-aspectratio {
+  text-decoration: underline;
+}
+.center-break {
+  padding-top: 5em;
+  padding-bottom: 5em; 
+}
+.audio-embed {
+  display: block;
+  align-content: center;
+  font-size: 22px;
+  font-weight: 550;
+  
+}
+.logos {
+  display: block;
+  align-content: center;
+}
+.center-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: .85;
+}
+.topic {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.topic-aspectratio {
+  background-position: center;
+  background-size: cover;
+  aspect-ratio: 1.5;
+}
+.topic-text {
+  text-decoration: none;
+  color:black;
+  font-size: 1.25em;
+  font-weight: 450;
+}
+.topic:hover .topic-text,
+.topic:hover .topic-aspectratio {
+  text-decoration: underline;
+}
+.footer-background {
+  background-color: rgb(236, 236, 236, .3);
+  list-style-type: none;
+}

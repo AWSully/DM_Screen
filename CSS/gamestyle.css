@@ -87,29 +87,76 @@
   background-color: rgb(236, 236, 236, .3);
   text-align:center;
 }
-.econ-article {
+.npc-article {
   height: 95%;
   margin: 20px;
   border: 1px solid;
   border-radius: 5px;
 }
-.econ-aspectratio {
+.npc-aspectratio {
   background-position: center;
   background-size:cover;
   padding-bottom: 56.25%;
   aspect-ratio: 1;
 }
-.econ-text {
+.npc-name {
   display: block;
   padding: 10px;
   color:black;
   font-size: larger;
   font-weight: 500;
 }
-.econ-article:hover .econ-text,
-.econ-article:hover .econ-aspectratio {
+.npc-article:hover .npc-name,
+.npc-article:hover .npc-aspectratio {
   text-decoration: underline;
 }
+
+#mirabel:hover {
+  background-image: url(../images/mirabel-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .npc-name, .npc-text, .npc-aspectratio {
+    display:none;
+  }
+}
+#elana:hover {
+  background-image: url(../images/elana-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .npc-name, .npc-text, .npc-aspectratio {
+    display:none;
+  }
+}
+#rurik:hover {
+  background-image: url(../images/rurik-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .npc-name, .npc-text, .npc-aspectratio {
+    display:none;
+  }
+}
+#majordomo:hover {
+  background-image: url(../images/majordomo-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .npc-name, .npc-text, .npc-aspectratio {
+    display:none;
+  }
+}
+#nathair:hover {
+  background-image: url(../images/nathair-2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .npc-name, .npc-text, .npc-aspectratio {
+    display:none;
+  }
+}
+
 .center-break {
   padding-top: 5em;
   padding-bottom: 5em; 
@@ -151,5 +198,5 @@
 }
 .footer-background {
   background-color: rgb(236, 236, 236, .3);
-  list-style-type: none;
+  text-align: center;
 }

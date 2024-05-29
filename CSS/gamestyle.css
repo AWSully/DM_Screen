@@ -7,17 +7,23 @@
   }
 }
 
-#navbarsupportedcontent{
-  align-content: right;
+#body{
+  background-color: rgb(18, 53, 84);
+  color:#faebd7;
 }
+.navbar {
+  display:flex;
+}
+.navbar-title{
+  justify-content: center;
+}
+
 #headline {
   padding-top:75px;
+
 }
-#headline-text {
-  text-decoration: none;
-  color:black;
-  font-size: 2.2em;
-  font-weight: 600;
+.header {
+  text-align:center;
 }
 .read-more {
   padding-top: 25px;
@@ -25,6 +31,7 @@
 .links-title {
   font-weight: 550;
   font-size: 24px;
+  text-align: center;
 }
 .links-text {
   text-decoration: none;
@@ -76,8 +83,9 @@
 .character-sheet:hover .unique-aspectratio {
   text-decoration: underline;
 }
-#economic-opp {
+#npc-monster {
   background-color: rgb(236, 236, 236, .3);
+  text-align:center;
 }
 .econ-article {
   height: 95%;

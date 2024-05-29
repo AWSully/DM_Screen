@@ -1,16 +1,105 @@
-.collection {
-  background-image: url(https://picsum.photos/500/500);
-  padding-top: calc(4.5 / 4 * 100%);
-  background-size: cover;
-  background-position: center;
+#character-page{
+  background-color: rgb(139, 59, 59);
 }
-@media (min-width: 768px) {
-  .collection {
-    padding-top: calc(2 / 3.5 * 100%);
-  }
+.odill-characters{
+  background-color: rgba(38, 38, 168, 0.25);
+}
+.npc-reference {
+  background-color: rgba(38, 38, 168, 0.25);
+}
+
+.artificer {
+  background-image: url(../images/Class\ Icon\ -\ Artificer.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.barbarian {
+  background-image: url(../images/Class\ Icon\ -\ Barbarian.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bard {
+  background-image: url(../images/Class\ Icon\ -\ Bard.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cleric {
+  background-image: url(../images/Class\ Icon\ -\ Cleric.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.druid {
+  background-image: url(../images/Class\ Icon\ -\ Druid.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fighter {
+  background-image: url(../images/Class\ Icon\ -\ Fighter.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.monk {
+  background-image: url(../images/Class\ Icon\ -\ Monk.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.paladin {
+  background-image: url(../images/Class\ Icon\ -\ Paladin.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ranger {
+  background-image: url(../images/Class\ Icon\ -\ Ranger.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rogue {
+  background-image: url(../images/Class\ Icon\ -\ Rogue.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sorcerer {
+  background-image: url(../images/Class\ Icon\ -\ Sorcerer.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.warlock {
+  background-image: url(../images/Class\ Icon\ -\ Warlock.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wizard {
+  background-image: url(../images/Class\ Icon\ -\ Wizard.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .inner {
-  /* overlay the inner <div> exactly on top of its parent */
   top: 0;
   left: 0;
   right: 0;
@@ -19,44 +108,116 @@
 .inner h4 {
   max-width: 200px;
 }
-.experience-filter .nav-item {
-  flex-shrink: 0;
-}
-.experience-filter .nav-item a {
-  font-size: 0.9rem;
-}
-.experience .img-card {
-  background-image: url(https://picsum.photos/400/400);
+
+.archived-sheet .oldartificer {
+  background-image: url(../images/Class\ Icon\ -\ Artificer.svg);
   padding-top: calc(4.5 / 4 * 100%);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .experience {
-    width: 20%;
-  } 
-}
-.best .img-card {
-  background-image: url(https://picsum.photos/399/399);
-}
-.weekend .img-card {
-  background-image: url(https://picsum.photos/401/401);
-}
-.groups .img-card {
-  background-image: url(https://picsum.photos/398/398);
-}
-.starting .img-card-wrapper {
-  /* we need to set the width on the wrapper <div> because the aspect ratio box padding top is based on this value */
-  width: 120px;
-  max-width: 120px;
-  flex-shrink: 0;
-}
-.starting .img-card {
-  background-image: url(https://picsum.photos/398/398);
-  padding-top: calc(5 / 4 * 100%);
-  background-size: cover;
+.archived-sheet .oldbarbarian {
+  background-image: url(../images/Class\ Icon\ -\ Barbarian.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
-.starting .text-box {
-  font-size: 0.9rem;
+.archived-sheet .oldbard {
+  background-image: url(../images/Class\ Icon\ -\ Bard.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldcleric {
+  background-image: url(../images/Class\ Icon\ -\ Cleric.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .olddruid {
+  background-image: url(../images/Class\ Icon\ -\ Druid.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldfighter {
+  background-image: url(../images/Class\ Icon\ -\ Fighter.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldmonk {
+  background-image: url(../images/Class\ Icon\ -\ Monk.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldpaladin {
+  background-image: url(../images/Class\ Icon\ -\ Paladin.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldranger {
+  background-image: url(../images/Class\ Icon\ -\ Ranger.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldrogue {
+  background-image: url(../images/Class\ Icon\ -\ Rogue.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldsorcerer {
+  background-image: url(../images/Class\ Icon\ -\ Sorcerer.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldwarlock {
+  background-image: url(../images/Class\ Icon\ -\ Warlock.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .oldwizard {
+  background-image: url(../images/Class\ Icon\ -\ Wizard.svg.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .craggle {
+  background-image: url(../images/AI\ Logo\ 2.1.png);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .harper {
+  background-image: url(../images/Faction\ -\ The\ Harpers\ -\ Banner.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.archived-sheet .zhentarim {
+  background-image: url(../images/Faction\ -\ The\ Zhentarim\ -\ Banner.svg);
+  padding-top: calc(4.5 / 4 * 100%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }

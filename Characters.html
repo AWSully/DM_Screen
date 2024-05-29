@@ -8,10 +8,10 @@
     <link href="./CSS/characterstyle.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/e067495424.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body id="character-page">
     <nav class="navbar navbar-expand-md navbar-light d-none d-md-flex shadow-sm">
       <div class="container-xxl">
-        <a class="navbar-brand text-danger" href="#"><i class="fa-brands fa-d-and-d pe-2"></i>Character Sheets</a>
+        <a class="navbar-brand text-danger"><i class="fa-brands fa-d-and-d pe-2"></i>Character Sheets</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,7 +23,7 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-end rounded-3 mt-2" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Overthrowing Odill</a></li>
-                <li><a class="dropdown-item" href="#">Campaign 2</a></li>
+                <li><a class="dropdown-item" href="#">Acquisitions Inc.</a></li>
                 <li><a class="dropdown-item" href="#">One Shots</a></li>
                 <li><a class="dropdown-item" href="#">Old Characters</a> </li>
               </ul>
@@ -32,11 +32,11 @@
         </div>
       </div>
     </nav>
-    <div class="container-xxl">
+    <div class="container-xxl acquisitions-characters">
       <h3 class="my-4">Acquisitions Inc. Characters</h3>
       <div class="row flex-nowrap overflow-scroll">
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 rogue position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 3 Assassin Rogue</small></p>
               <h4 class="mb-auto">Kell</h4>
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 wizard position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 3 Order of the Scribes Wizard</small></p>
               <h4 class="mb-auto">Freya Fernwood</h4>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 paladin position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 3 Vengeance Paladin</small></p>
               <h4 class="mb-auto">Kroda</h4>
@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 cleric position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 3 Order Cleric</small></p>
               <h4 class="mb-auto">Perry M</h4>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 artificer position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 3 Artificer Battlesmith</small></p>
               <h4 class="mb-auto">Hoarfrost</h4>
@@ -83,11 +83,11 @@
       </div>
     </div>
     <hr/>
-    <div class="container-xxl">
+    <div class="container-fluid px-5 py-2 odill-characters">
       <h3 class="my-4">Overthrowing Odill Characters</h3>
       <div class="row flex-nowrap overflow-scroll">
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 monk position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 10 Monk/Sorceror/Barbarian</small></p>
               <h4 class="mb-auto">Luck Voltia</h4>
@@ -96,7 +96,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 rogue position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 10 Assassin Rogue/Fiend Warlock</small></p>
               <h4 class="mb-auto">Bitsy Tiddlywink</h4>
@@ -105,7 +105,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 druid position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 10 Moon Druid</small></p>
               <h4 class="mb-auto">Abaddon</h4>
@@ -114,7 +114,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-9 col-md-8 col-lg-5">
-          <div class="rounded-3 text-white collection position-relative">
+          <div class="rounded-3 bard position-relative">
             <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
               <p class="mb-0"><small>Level 10 Valor Bard/Rune Knight</small></p>
               <h4 class="mb-auto">Miguel</h4>
@@ -124,11 +124,11 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl mb-5">
+    <div class="container-fluid px-5 py-2 mb-5 old-characters">
       <h4 class="my-4">Old characters</h4>
       <div class="row flex-nowrap overflow-scroll">
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="barbarian mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Matt</span></small></p>
@@ -136,8 +136,8 @@
             <p class="mb-0"><b>Barbarian 10</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="paladin mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Austin</span></small></p>
@@ -145,8 +145,8 @@
             <p class="mb-0"><b>Oathbreaker Paladin 10</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="warlock mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Ryan</span></small></p>
@@ -154,8 +154,8 @@
             <p class="mb-0"><b>Fathomless Warlock 5</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="cleric mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Devon</span></small></p>
@@ -163,8 +163,8 @@
             <p class="mb-0"><b>War Cleric 5</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="sorcerer mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Shanna</span></small></p>
@@ -172,8 +172,8 @@
             <p class="mb-0"><b>Storm Sorceror 5</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="monk mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Austin</span></small></p>
@@ -181,8 +181,8 @@
             <p class="mb-0"><b>Shadow Monk 10</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="wizard mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Jon</span></small></p>
@@ -190,8 +190,8 @@
             <p class="mb-0"><b>Conjuration Wizard 20</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="bard mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Shanna</span></small></p>
@@ -199,8 +199,8 @@
             <p class="mb-0"><b>Bard 20</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="barbarian mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Joey</span></small></p>
@@ -208,8 +208,8 @@
             <p class="mb-0"><b>Zealot Barbarian 20</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet">
+          <div class="rogue mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Nick</span></small></p>
@@ -219,29 +219,11 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl mb-5 pt-4">
+    <div class="container-fluid px-5 py-2 mb-5 pt-4 npc-reference">
       <h4 class="my-4">Important NPCs</h4>
       <div class="row flex-nowrap overflow-scroll">
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
-          </div>
-          <div class="text-box">
-            <p class="mb-1"><small><span class="text-secondary">Overthrowing Odill</span></small></p>
-            <p class="mb-1">Sap Pyous</p>
-            <p class="mb-0"><b>Merchant/Guild Leader</b></p>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
-          </div>
-          <div class="text-box">
-            <p class="mb-1"><small><span class="text-secondary">Overthrowing Odill</span></small></p>
-            <p class="mb-1">Durzh</p>
-            <p class="mb-0"><b>Alchemist Artificer 10</b></p>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="craggle mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
@@ -249,8 +231,8 @@
             <p class="mb-0"><b>Majordomo</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="druid mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
@@ -258,8 +240,17 @@
             <p class="mb-0"><b>Loudwater Herbalist</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="zhentarim mb-2 rounded-3 border border-light">
+          </div>
+          <div class="text-box">
+            <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
+            <p class="mb-1">Telbor Zazrek</p>
+            <p class="mb-0"><b>High Lord of Loudwater</b></p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="cleric mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
@@ -267,8 +258,8 @@
             <p class="mb-0"><b>Acolyte of Mielikki</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="fighter mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
@@ -276,17 +267,17 @@
             <p class="mb-0"><b>Captain of the Loudwater Guard</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="harper mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
-            <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
-            <p class="mb-1">Solve the Mysterry Escape Room</p>
-            <p class="mb-0"><b>From $12 USD</b> / person</p>
+            <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
+            <p class="mb-1">Grunthat Ironkeg</p>
+            <p class="mb-0"><b>Bartender</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="rogue mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
@@ -294,13 +285,31 @@
             <p class="mb-0"><b>Thief/Fence</b></p>
           </div>
         </div>
-        <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
-          <div class="img-card mb-2 rounded-3 border border-light">
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="zhentarim mb-2 rounded-3 border border-light">
           </div>
           <div class="text-box">
             <p class="mb-1"><small><span class="text-secondary">Acquisitions Inc</span></small></p>
             <p class="mb-1">Rurik Stonefist</p>
             <p class="mb-0"><b>Watchful Turtle Overseer</b></p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="bard mb-2 rounded-3 border border-light">
+          </div>
+          <div class="text-box">
+            <p class="mb-1"><small><span class="text-secondary">Overthrowing Odill</span></small></p>
+            <p class="mb-1">Sap Pyous</p>
+            <p class="mb-0"><b>Merchant/Guild Leader</b></p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-xl-2 archived-sheet best">
+          <div class="artificer mb-2 rounded-3 border border-light">
+          </div>
+          <div class="text-box">
+            <p class="mb-1"><small><span class="text-secondary">Overthrowing Odill</span></small></p>
+            <p class="mb-1">Durzh</p>
+            <p class="mb-0"><b>Alchemist Artificer 10</b></p>
           </div>
         </div>
       </div>

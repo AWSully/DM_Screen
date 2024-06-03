@@ -200,3 +200,7 @@
   background-color: rgb(236, 236, 236, .3);
   text-align: center;
 }
+.sitemap {
+  text-decoration: none;
+  color: #faebd7;
+}

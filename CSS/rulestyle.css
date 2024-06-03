@@ -21,3 +21,7 @@
 .books:hover .books-aspectratio{
   text-decoration: underline;
 }
+.sitemap {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}

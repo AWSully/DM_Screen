@@ -221,3 +221,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.sitemap {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}
